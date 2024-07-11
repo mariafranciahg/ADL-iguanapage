@@ -1,0 +1,75 @@
+body {
+    width: 1280px;
+    background-color: #000; 
+    color: white;
+    margin: auto;
+    font-family: "Raleway", sans-serif;
+}
+
+#header {
+    display: flex;
+    text-align: center;
+    flex-direction: column; 
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#header p {
+    margin: 0.4rem 0;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    margin: 3rem 0;
+}
+
+.boxText {
+    width: 35%;
+    margin: auto 0;
+    font-weight: 300;
+}
+
+.principal img {
+    width: 399px;      
+}
+
+.caracteristicas {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 2rem;
+    font-weight: 500;  
+}
+
+.iconos {
+    display: flex;
+    margin: 3rem 0 1rem 0;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 300;  
+}
+
+.iconoText {
+    width: 25%;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 4.5rem 0;
+}
+
+.imagenes img {
+    width: 316px;
+}
+
+#footer {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 1.3rem 0;
+    font-size: 1.15rem;
+    font-weight: 300;
+}
